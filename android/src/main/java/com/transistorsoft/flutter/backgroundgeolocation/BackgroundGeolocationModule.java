@@ -87,7 +87,7 @@ public class BackgroundGeolocationModule  implements MethodChannel.MethodCallHan
     private static final String ACTION_SHOW_SETTINGS     = "showSettings";
     private static final String ACTION_REGISTER_PLUGIN   = "registerPlugin";
     private static final String ACTION_REQUEST_TEMPORARY_FULL_ACCURACY = "requestTemporaryFullAccuracy";
-    private static final String JOB_SERVICE_CLASS         = "com.transistorsoft.flutter.backgroundgeolocation.HeadlessTask";
+    private static final String JOB_SERVICE_CLASS         = "";
     private boolean mIsInitialized  = false;
     private boolean mReady          = false;
     private final Map<BinaryMessenger, MethodChannel> mMethodChannels = new HashMap<>();
